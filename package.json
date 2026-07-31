@@ -1,16 +1,15 @@
 {
-  "name": "sn-bump-ai",
+  "name": "sn-bump",
   "version": "1.0.0",
-  "description": "SN Bump AI - Bot de Discord con sistema de bump global e IA",
-  "type": "module",
+  "description": "Bot de bump y administración para Discord",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@google/genai": "^1.0.0",
     "discord.js": "^14.21.0",
-    "dotenv": "^16.4.7",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "dotenv": "^16.6.1",
+    "quick.db": "^9.1.7"
   }
 }
