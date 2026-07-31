@@ -1,29 +1,16 @@
 {
   "name": "sn-bump-ai",
   "version": "1.0.0",
-  "description": "SN Bump AI - Sistema de Bump Global para Discord",
+  "description": "SN Bump AI - Bot de Discord con sistema de bump global e IA",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [
-    "discord",
-    "discordjs",
-    "bump",
-    "bot",
-    "gemini",
-    "ai"
-  ],
-  "author": "SN Bump AI",
-  "license": "MIT",
-  "engines": {
-    "node": ">=20.0.0"
-  },
   "dependencies": {
-    "@google/genai": "^1.17.0",
+    "@google/genai": "^1.0.0",
     "discord.js": "^14.21.0",
-    "dotenv": "^17.2.1",
+    "dotenv": "^16.4.7",
     "express": "^5.1.0"
   }
 }
