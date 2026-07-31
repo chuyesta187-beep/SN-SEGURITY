@@ -1,0 +1,16 @@
+# ============================
+# SN SECURITY v6.0
+# Variables de entorno
+# ============================
+
+# Token del bot de Discord
+DISCORD_TOKEN=
+
+# Puerto para Render
+PORT=10000
+
+# Entorno
+NODE_ENV=production
+
+# Render (opcional)
+RENDER=true
