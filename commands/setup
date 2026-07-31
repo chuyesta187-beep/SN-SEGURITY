@@ -1,0 +1,45 @@
+const {
+    SlashCommandBuilder,
+    PermissionFlagsBits,
+    EmbedBuilder
+} = require('discord.js');
+
+module.exports = {
+    data: new SlashCommandBuilder()
+        .setName('setup')
+        .setDescription('Configura SN SECURITY en este servidor.')
+        .setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
+
+    async execute(interaction) {
+
+        const embed = new EmbedBuilder()
+            .setColor('#2b2d31')
+            .setTitle('🛡️ SN SECURITY')
+            .setDescription(
+`La configuración inicial ha comenzado.
+
+✅ Base de datos conectada.
+✅ Comandos cargados.
+✅ Sistema listo.
+
+Ahora configura:
+
+• /logs
+• /staff rol
+• /panel
+• /config
+
+Después usa /guia para ver toda la información del bot.`
+            )
+            .setFooter({
+                text: 'SN SECURITY v6.0'
+            })
+            .setTimestamp();
+
+        await interaction.reply({
+            embeds: [embed],
+            ephemeral: true
+        });
+
+    }
+};
