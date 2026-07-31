@@ -5,7 +5,6 @@ SN Bump AI es un bot de Discord desarrollado con Discord.js v14 que permite prom
 ## ✨ Funciones
 
 - 🚀 Sistema de Bump Global
-- 🤖 Integración con Gemini AI
 - 📊 Estadísticas
 - 🏆 Ranking de servidores
 - 🎨 Embeds personalizables
